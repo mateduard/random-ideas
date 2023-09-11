@@ -74,7 +74,7 @@ class IdeaList {
             </h3>
             <p class="tag ${tagClass}">${idea.tag}</p>
             <p>
-              Posted on <span class="date">${idea.date}</span> by
+              Posted on <span class="date">${idea.date.slice(0,10)}</span> by
               <span class="author">${idea.username}</span>
             </p>
           </div>
